@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Couples game</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="heading">
+      Найдите пары
+    </h1>
+    <div class="area">
+      <form class="form">
+        <h2 class="form-heading">
+          Настроить игру:
+        </h2>
+        <label class="label">
+          Поле:
+        </label>
+        <select class="game-select" name="select-amount" id="select-amount">
+          <option value="4">2 на 2</option>
+          <option value="16">4 на 4</option>
+          <option value="36">6 на 6</option>
+        </select>
+        <label class="label">
+          Карточки:
+        </label>
+        <select class="game-select" name="select-card-type" id="select-card-type">
+          <option value="numbers">Числа</option>
+          <option value="images">Картинки</option>
+        </select>
+        <button class="submit-button">
+          Начать игру
+        </button>
+      </form>
+      <ul class="card-list">
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
